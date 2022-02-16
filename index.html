@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport"
+	      content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible"
+	      content = "ie=edge">
+	<title>Angle Quiz</title>
+	<link rel = "stylesheet"
+	      href = "main.css">
+</head>
+<body>
+<div class="details">
+	<div class="all">
+		<h2>جميع المحاولات</h2>
+		<span>0</span>
+	</div>
+	<div class="correct">
+		<h2> المحاولات الصحيحة</h2>
+		<span>0</span>
+	</div>
+	<div class="incorrect">
+		<h2>المحاولات الخاطئة</h2>
+		<span>0</span>
+	</div>
+</div>
+<div class="game">
+	<div class="show">
+		<div class="about"> What is this angle mean?</div>
+		<canvas id="mycanvas" width="300"  height="300"> </canvas>
+	</div>
+	<div class="control">
+		<form action = ""
+		      class = "choice">
+			<div>
+				<input type = "radio"
+				       name = "choice"
+				       id = "small">
+				<label for = "small">زاوية حادة (أقل من 90 درجة)</label>
+			</div>
+			<div>
+				<input type = "radio"
+				       name = "choice"
+				       id = "medium">
+				<label for = "medium">زاوية قائمة (تساوي  90 درجة)</label>
+			</div>
+			<div>
+				<input type = "radio"
+				       name = "choice"
+				       id = "big">
+				<label for = "big">زاوية منفرجة (أكبر من 90 درجة)</label>
+			</div>
+			<div class="buttons">
+				<button type = "submit"> تحقق </button>
+				<button type = "reset">ازالة</button>
+			</div>
+
+
+		</form>
+	</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
